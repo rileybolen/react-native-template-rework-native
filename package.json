@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-rework-native",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A base template for a new React Native project with the ReWork Native Framework",
   "main": "index.js",
   "scripts": {
