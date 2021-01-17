@@ -1,4 +1,19 @@
 {
   "name": "react-native-template-rework-native",
-  "version": "1.0.1"
+  "version": "1.0.2",
+  "description": "A base template for a new React Native project with the ReWork Native Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileybolen/react-native-template-rework-native.git"
+  },
+  "author": "Riley Bolen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rileybolen/react-native-template-rework-native/issues"
+  },
+  "homepage": "https://github.com/rileybolen/react-native-template-rework-native#readme"
 }
