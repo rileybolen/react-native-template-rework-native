@@ -7,7 +7,7 @@ target 'ReworkNativeTemplate' do
   config = use_native_modules!
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
   pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
-  pod 'RNCPicker', :path => '../node_modules/@react-native-community/picker'
+  pod 'RNCPicker', :path => '../node_modules/@react-native-picker/picker'
 
   use_react_native!(:path => config["reactNativePath"])
 
