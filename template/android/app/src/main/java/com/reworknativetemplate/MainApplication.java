@@ -11,6 +11,10 @@ import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
+import com.reactnativecommunity.picker.RNCPickerPackage;
+import com.horcrux.svg.SvgPackage;
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost =
@@ -26,6 +30,9 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
+          packages.add(new RNCPickerPackage());
+          packages.add(new SvgPackage());
+          packages.add(new SafeAreaContextPackage());
           return packages;
         }
 
